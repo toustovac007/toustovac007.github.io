@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Příprava na praktickou prověrku</title>
+    <link rel="stylesheet" type="text/css" href="./css/styles.css">
+</head>
+<body>
+    <h1>Příprava na praktickou prověrku</h1>
+    <ul>
+        <li><a href="#textoveUpravy">Textové úpravy</a></li>
+        <li><a href="#tabulka">Tabulka</a></li>
+    </ul>
+    <h2 id="textoveUpravy">Textové úpravy</h2>
+    <h3>Textové úpravy používané na internetu</h3>
+    <p>
+        Adresy na internetu jsou jako klíče do digitálního světa. <strong>URL</strong> (Uniform Resource Locator) určují umístění webových stránek,
+        jako je například <span class="odkaz">https://www.example.com</span>. <strong>E-mailové adresy</strong>, jako <span class="odkaz">example@example.com</span>, umožňují komunikaci elektronickou poštou. 
+        <strong>Uživatelská jména</strong> na sociálních médiích, jako je Instagram nebo Twitter, jsou další formou adres. Bez nich by se v digitálním prostoru
+        těžko navigovalo. Každá adresa je unikátní identifikátor, který usnadňuje komunikaci a orientaci na internetu.</p>
+        <h4>Části URL adresy - <span class="odkaz">https://www.example.com</span></h4>
+    <ul>
+        <li><strong>Protokol:</strong> V tomto příkladu je to <code>https://</code>. Protokol určuje způsob komunikace mezi klientem (např. browser) a serverem.</li>
+        <li><strong>Doména:</strong> V tomto příkladu je to <code>www.example.com</code>. Doména je unikátní identifikátor webového serveru.</li>
+        <li><strong>Cesta:</strong> Pokud je adresa rozdělena na části znakem "/", cesta určuje konkrétní umístění zdroje na serveru.</li>
+    </ul>
+    <h3>Seznam významných termínů a zkratek</h3>
+    <dl>
+        <dt class="zkratka">HTML</dt>
+        <dd>HyperText Markup Language</dd>
+        <dt class="zkratka">HTTP</dt>
+        <dd>HyperText Transfer Protocol</dd>
+        <dt>Validátor</dt>
+        <dd>Nástroj, který kontroluje, zda je dokument ve správném formátu</dd>
+        <dt>Server</dt>
+        <dd>Počítač, který poskytuje webový server</dd>
+    </dl>
+
+    <h2 id="tabulka">Tabulka</h2>
+    <table>
+        <thead>
+        <tr>
+            <td rowspan="2">Nečíslovaný seznam</td>
+            <td colspan="2">Prvky stránky</td>
+            <td rowspan="2">Obrázek (šířka 200 px)</td>
+        </tr>
+        <tr>
+            <td>Značky</td>
+            <td>Entity</td>
+        </tr>
+        </thead>
+        <tr>
+            <td rowspan="2">
+                <ul class="tabulka">
+                    <li>IP adresa</li>
+                    <li>Jmenná adresa</li>
+                    <li>URL</li>
+                </ul>
+            </td>
+            <td>
+                H<sub>2</sub>O
+            </td>
+            <td>
+                &
+            </td>
+            <td rowspan="2">
+                <img width="200" src="./img/grussman.jpg" alt="Obrázek">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                c = a<sup>2</sup> + b<sup>2</sup>
+            </td>
+            <td>
+                &copy;
+            </td>
+        </tr>
+        <tr>
+            <td>Odkaz</td>
+            <td colspan="3"><a href="https://www.w3c.org">www.wrc.org</a></td>
+        </tr>
+    </table>
+    <footer>
+        <p>&copy; 2024 Tomáš Franta, <span class="zkratka">SŠPU</span>, Opava, <strong>IT1</strong></p>
+    </footer>
+</body>
+</html>

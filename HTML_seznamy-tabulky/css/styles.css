@@ -1,0 +1,113 @@
+main {
+    padding: 20px;
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+}
+
+body {
+    font-family: Arial;
+    background-color: white;
+    line-height: 130%;
+    color: black;
+}
+
+footer {
+    margin-top: 200px;
+}
+
+#obal {
+    width: 60%;
+    margin: 10px auto;
+}
+
+header {
+    font-size: x-large;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    background-color: rgb(139, 11, 11);
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+
+h2::before {
+    content: "▶";
+    position: absolute;
+    left: 10px;
+    color: gray;
+    margin-left: 350px;
+    }
+
+h3 {
+    color: blue;
+}
+
+caption {
+    color: white;
+    background-color: black;
+    margin-bottom: 1%;
+}
+
+table,
+th,
+td {
+    border: 1px solid;
+    text-align: center;
+    border-collapse: collapse;
+    width: 860px;
+    height: 30px;
+}
+
+thead {
+    background-color: silver;
+}
+
+tfoot {
+    background-color: silver;
+    text-align: left;
+    border: 2px solid;
+    border-collapse: collapse;
+}
+
+dt {
+    display: block;
+    font-size: 1em;
+    font-weight: bold;
+    margin-bottom: 2%;
+}
+
+.r {
+    text-align: right;
+    font-weight: 100;
+    width: 300px;
+}
+
+.cr {
+    text-align: right;
+    color: red;
+    border-color: black;
+}
+
+.l {
+    text-align: left;
+    font-weight: 100;
+}
+
+.tl {
+    text-align: left;
+}
+
+.p {
+    width: 300px;
+}
+
+.d {
+    width: 3000px;
+}

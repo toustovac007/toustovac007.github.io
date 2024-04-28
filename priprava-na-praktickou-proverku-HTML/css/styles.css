@@ -1,0 +1,40 @@
+table {
+    border-collapse: collapse;
+    border-radius: 10px;
+}
+
+table td, table th {
+    padding: 10px;
+    border: 1px solid black;
+}
+
+thead {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+ul.tabulka {
+    text-align:left;
+}
+
+footer {
+    color: black;
+    text-align: center;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+p {
+    max-width: 600px;
+}
+.odkaz {
+    color: blue;
+    font-weight: lighter;
+    text-decoration: underline;
+}
+
+.zkratka {
+    text-decoration: underline dotted;
+}

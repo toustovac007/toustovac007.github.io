@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(79, 76, 76);
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    font-family: Arial;background-color: #111;
+    margin-left: 10em;
+    margin-right: 10em;
+    border-radius: 10px;
+}
+
+footer {
+    color: white;
+}
+.button {
+    padding: 0.6em 2em;
+    border: none;
+    outline: none;
+    color: greenyellow;
+    background: #111;
+    cursor: pointer;
+    position: relative;
+    border-radius: 10px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin: auto;
+    display: block;
+    width: 30%;
+    cursor: pointer;
+  }
+
+  .button:hover {
+    color:white;
+    transform: scale(1.1) rotate(1deg);
+  }
+  
